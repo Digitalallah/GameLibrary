@@ -7,10 +7,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/220/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/220/"
@@ -18,8 +15,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "220",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "280",
@@ -28,10 +25,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/280/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/280/"
@@ -39,8 +33,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "280",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "320",
@@ -49,10 +43,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/320/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/320/"
@@ -60,8 +51,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "320",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "360",
@@ -70,10 +61,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/360/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/360/"
@@ -81,8 +69,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "360",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "400",
@@ -91,10 +79,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/400/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/400/"
@@ -102,8 +87,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "400",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "500",
@@ -112,10 +97,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/500/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/500/"
@@ -123,8 +105,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "500",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "550",
@@ -133,10 +115,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/550/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/550/"
@@ -144,8 +123,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "550",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "620",
@@ -154,10 +133,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/620/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/620/"
@@ -165,8 +141,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "620",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "730",
@@ -175,10 +151,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/730/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/730/"
@@ -186,8 +159,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "730",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1500",
@@ -196,10 +169,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1500/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1500/"
@@ -207,8 +177,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1500",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "2990",
@@ -217,10 +187,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/2990/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/2990/"
@@ -228,8 +195,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "2990",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "6220",
@@ -238,10 +205,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/6220/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/6220/"
@@ -249,8 +213,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "6220",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "6910",
@@ -259,10 +223,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/6910/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/6910/"
@@ -270,8 +231,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "6910",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "6920",
@@ -280,10 +241,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/6920/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/6920/"
@@ -291,8 +249,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "6920",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "12320",
@@ -301,10 +259,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/12320/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/12320/"
@@ -312,8 +267,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "12320",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "12360",
@@ -322,10 +277,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/12360/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/12360/"
@@ -333,8 +285,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "12360",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "15130",
@@ -343,10 +295,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/15130/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/15130/"
@@ -354,8 +303,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "15130",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "17460",
@@ -364,10 +313,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/17460/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/17460/"
@@ -375,8 +321,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "17460",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "20900",
@@ -385,10 +331,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/20900/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/20900/"
@@ -396,8 +339,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "20900",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "22320",
@@ -406,10 +349,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/22320/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/22320/"
@@ -417,8 +357,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "22320",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "22330",
@@ -427,10 +367,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/22330/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/22330/"
@@ -438,8 +375,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "22330",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "22490",
@@ -448,10 +385,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "unknown",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/22490/",
-    "note": "",
     "addedAt": "2026-06-22",
     "steamAppId": "22490",
     "sources": [
@@ -459,8 +393,8 @@ const ORIGINAL_GAMES = [
     ],
     "releaseDatePrecision": "unknown",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "24980",
@@ -469,10 +403,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/24980/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/24980/",
@@ -481,8 +412,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "24980",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "35140",
@@ -491,10 +422,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/35140/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/35140/"
@@ -502,8 +430,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "35140",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "38400",
@@ -512,10 +440,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/38400/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/38400/"
@@ -523,8 +448,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "38400",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "38410",
@@ -533,10 +458,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/38410/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/38410/"
@@ -544,8 +466,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "38410",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "38420",
@@ -554,10 +476,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/38420/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/38420/"
@@ -565,8 +484,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "38420",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "39500",
@@ -575,10 +494,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/39500/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/39500/"
@@ -586,8 +502,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "39500",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "39510",
@@ -596,10 +512,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/39510/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/39510/"
@@ -607,8 +520,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "39510",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "41000",
@@ -617,10 +530,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/41000/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/41000/"
@@ -628,8 +538,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "41000",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "41010",
@@ -638,10 +548,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "unknown",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/41010/",
-    "note": "",
     "addedAt": "2026-06-22",
     "steamAppId": "41010",
     "sources": [
@@ -649,8 +556,8 @@ const ORIGINAL_GAMES = [
     ],
     "releaseDatePrecision": "unknown",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "43160",
@@ -659,10 +566,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "unknown",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/43160/",
-    "note": "",
     "addedAt": "2026-06-22",
     "steamAppId": "43160",
     "sources": [
@@ -670,8 +574,8 @@ const ORIGINAL_GAMES = [
     ],
     "releaseDatePrecision": "unknown",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "57300",
@@ -680,10 +584,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/57300/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/57300/"
@@ -691,8 +592,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "57300",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "65540",
@@ -701,10 +602,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/65540/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/65540/"
@@ -712,8 +610,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "65540",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "108600",
@@ -722,10 +620,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "2013-11-08",
     "earlyAccessDateStatus": "exact",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/108600/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/108600/"
@@ -733,8 +628,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "108600",
     "earlyAccessDatePrecision": "day",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "108710",
@@ -743,10 +638,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/108710/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/108710/"
@@ -754,8 +646,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "108710",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "200260",
@@ -764,10 +656,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/200260/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/200260/"
@@ -775,8 +664,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "200260",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "201510",
@@ -785,10 +674,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/201510/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/201510/"
@@ -796,8 +682,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "201510",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "204030",
@@ -806,10 +692,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/204030/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/204030/"
@@ -817,8 +700,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "204030",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "204340",
@@ -827,10 +710,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/204340/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/204340/"
@@ -838,8 +718,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "204340",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "208400",
@@ -848,10 +728,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/208400/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/208400/"
@@ -859,8 +736,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "208400",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "208580",
@@ -869,10 +746,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/208580/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/208580/"
@@ -880,8 +754,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "208580",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "208650",
@@ -890,10 +764,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/208650/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/208650/"
@@ -901,8 +772,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "208650",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "211820",
@@ -911,10 +782,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/211820/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/211820/"
@@ -922,8 +790,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "211820",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "212680",
@@ -932,10 +800,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/212680/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/212680/"
@@ -943,8 +808,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "212680",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "220200",
@@ -953,10 +818,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/220200/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/220200/"
@@ -964,8 +826,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "220200",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "220240",
@@ -974,10 +836,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/220240/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/220240/"
@@ -985,8 +844,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "220240",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "221100",
@@ -995,10 +854,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/221100/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/221100/"
@@ -1006,8 +862,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "221100",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "223830",
@@ -1016,10 +872,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/223830/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/223830/"
@@ -1027,8 +880,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "223830",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "225540",
@@ -1037,10 +890,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/225540/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/225540/"
@@ -1048,8 +898,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "225540",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "227300",
@@ -1058,10 +908,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/227300/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/227300/"
@@ -1069,8 +916,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "227300",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "230070",
@@ -1079,10 +926,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/230070/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/230070/"
@@ -1090,8 +934,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "230070",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "230230",
@@ -1100,10 +944,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/230230/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/230230/"
@@ -1111,8 +952,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "230230",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "232430",
@@ -1121,10 +962,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/232430/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/232430/"
@@ -1132,8 +970,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "232430",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "233860",
@@ -1142,10 +980,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/233860/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/233860/"
@@ -1153,8 +988,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "233860",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "237990",
@@ -1163,10 +998,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/237990/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/237990/"
@@ -1174,8 +1006,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "237990",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "238010",
@@ -1184,10 +1016,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/238010/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/238010/"
@@ -1195,8 +1024,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "238010",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "238320",
@@ -1205,10 +1034,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/238320/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/238320/"
@@ -1216,8 +1042,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "238320",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "239140",
@@ -1226,10 +1052,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/239140/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/239140/"
@@ -1237,8 +1060,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "239140",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "239820",
@@ -1247,10 +1070,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/239820/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/239820/"
@@ -1258,8 +1078,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "239820",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "240760",
@@ -1268,10 +1088,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/240760/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/240760/"
@@ -1279,8 +1096,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "240760",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "242760",
@@ -1289,10 +1106,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/242760/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/242760/"
@@ -1300,8 +1114,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "242760",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "242920",
@@ -1310,10 +1124,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/242920/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/242920/"
@@ -1321,8 +1132,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "242920",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "244850",
@@ -1331,10 +1142,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/244850/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/244850/"
@@ -1342,8 +1150,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "244850",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "250520",
@@ -1352,10 +1160,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/250520/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/250520/"
@@ -1363,8 +1168,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "250520",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "253110",
@@ -1373,10 +1178,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/253110/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/253110/"
@@ -1384,8 +1186,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "253110",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "255710",
@@ -1394,10 +1196,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/255710/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/255710/"
@@ -1405,8 +1204,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "255710",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "258180",
@@ -1415,10 +1214,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/258180/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/258180/"
@@ -1426,8 +1222,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "258180",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "261550",
@@ -1436,10 +1232,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/261550/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/261550/"
@@ -1447,8 +1240,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "261550",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "262060",
@@ -1457,10 +1250,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/262060/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/262060/"
@@ -1468,8 +1258,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "262060",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "264710",
@@ -1478,10 +1268,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/264710/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/264710/"
@@ -1489,8 +1276,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "264710",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "268050",
@@ -1499,10 +1286,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/268050/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/268050/"
@@ -1510,8 +1294,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "268050",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "268500",
@@ -1520,10 +1304,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/268500/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/268500/"
@@ -1531,8 +1312,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "268500",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "272270",
@@ -1541,10 +1322,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/272270/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/272270/"
@@ -1552,8 +1330,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "272270",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "274520",
@@ -1562,10 +1340,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/274520/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/274520/"
@@ -1573,8 +1348,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "274520",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "275850",
@@ -1583,10 +1358,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/275850/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/275850/"
@@ -1594,8 +1366,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "275850",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "281640",
@@ -1604,10 +1376,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/281640/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/281640/"
@@ -1615,8 +1384,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "281640",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "282140",
@@ -1625,10 +1394,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/282140/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/282140/"
@@ -1636,8 +1402,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "282140",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "286160",
@@ -1646,10 +1412,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/286160/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/286160/"
@@ -1657,8 +1420,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "286160",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "286690",
@@ -1667,10 +1430,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/286690/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/286690/"
@@ -1678,8 +1438,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "286690",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "287700",
@@ -1688,10 +1448,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/287700/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/287700/"
@@ -1699,8 +1456,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "287700",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "289130",
@@ -1709,10 +1466,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/289130/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/289130/"
@@ -1720,8 +1474,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "289130",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "291650",
@@ -1730,10 +1484,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/291650/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/291650/"
@@ -1741,8 +1492,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "291650",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "292030",
@@ -1751,10 +1502,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/292030/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/292030/"
@@ -1762,8 +1510,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "292030",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "294100",
@@ -1772,10 +1520,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/294100/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/294100/"
@@ -1783,8 +1528,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "294100",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "304650",
@@ -1793,10 +1538,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/304650/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/304650/"
@@ -1804,8 +1546,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "304650",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "306130",
@@ -1814,10 +1556,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/306130/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/306130/"
@@ -1825,8 +1564,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "306130",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "307690",
@@ -1835,10 +1574,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/307690/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/307690/"
@@ -1846,8 +1582,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "307690",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "323190",
@@ -1856,10 +1592,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/323190/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/323190/"
@@ -1867,8 +1600,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "323190",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "335300",
@@ -1877,10 +1610,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/335300/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/335300/"
@@ -1888,8 +1618,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "335300",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "337000",
@@ -1898,10 +1628,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/337000/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/337000/"
@@ -1909,8 +1636,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "337000",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "346110",
@@ -1919,10 +1646,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/346110/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/346110/"
@@ -1930,8 +1654,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "346110",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "356190",
@@ -1940,10 +1664,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/356190/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/356190/"
@@ -1951,8 +1672,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "356190",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "359320",
@@ -1961,10 +1682,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/359320/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/359320/"
@@ -1972,8 +1690,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "359320",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "361420",
@@ -1982,10 +1700,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/361420/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/361420/"
@@ -1993,8 +1708,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "361420",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "362890",
@@ -2003,10 +1718,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/362890/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/362890/"
@@ -2014,8 +1726,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "362890",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "362960",
@@ -2024,10 +1736,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/362960/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/362960/"
@@ -2035,8 +1744,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "362960",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "365360",
@@ -2045,10 +1754,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/365360/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/365360/"
@@ -2056,8 +1762,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "365360",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "367520",
@@ -2066,10 +1772,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/367520/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/367520/"
@@ -2077,8 +1780,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "367520",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "367540",
@@ -2087,10 +1790,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "unknown",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/367540/",
-    "note": "",
     "addedAt": "2026-06-22",
     "steamAppId": "367540",
     "sources": [
@@ -2098,8 +1798,8 @@ const ORIGINAL_GAMES = [
     ],
     "releaseDatePrecision": "unknown",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "368370",
@@ -2108,10 +1808,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/368370/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/368370/"
@@ -2119,8 +1816,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "368370",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "371970",
@@ -2129,10 +1826,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/371970/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/371970/"
@@ -2140,8 +1834,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "371970",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "373420",
@@ -2150,10 +1844,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/373420/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/373420/"
@@ -2161,8 +1852,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "373420",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "374320",
@@ -2171,10 +1862,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/374320/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/374320/"
@@ -2182,8 +1870,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "374320",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "377160",
@@ -2192,10 +1880,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/377160/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/377160/"
@@ -2203,8 +1888,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "377160",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "379430",
@@ -2213,10 +1898,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/379430/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/379430/"
@@ -2224,8 +1906,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "379430",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "379720",
@@ -2234,10 +1916,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/379720/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/379720/"
@@ -2245,8 +1924,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "379720",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "383150",
@@ -2255,10 +1934,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/383150/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/383150/"
@@ -2266,8 +1942,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "383150",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "392160",
@@ -2276,10 +1952,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/392160/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/392160/"
@@ -2287,8 +1960,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "392160",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "394310",
@@ -2297,10 +1970,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/394310/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/394310/"
@@ -2308,8 +1978,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "394310",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "394510",
@@ -2318,10 +1988,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/394510/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/394510/"
@@ -2329,8 +1996,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "394510",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "396480",
@@ -2339,10 +2006,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/396480/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/396480/"
@@ -2350,8 +2014,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "396480",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "404730",
@@ -2360,10 +2024,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/404730/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/404730/"
@@ -2371,8 +2032,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "404730",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "407530",
@@ -2381,10 +2042,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/407530/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/407530/"
@@ -2392,8 +2050,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "407530",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "412020",
@@ -2402,10 +2060,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/412020/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/412020/"
@@ -2413,8 +2068,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "412020",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "413150",
@@ -2423,10 +2078,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/413150/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/413150/"
@@ -2434,8 +2086,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "413150",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "414700",
@@ -2444,10 +2096,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/414700/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/414700/"
@@ -2455,8 +2104,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "414700",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "418370",
@@ -2465,10 +2114,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/418370/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/418370/"
@@ -2476,8 +2122,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "418370",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "428660",
@@ -2486,10 +2132,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/428660/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/428660/"
@@ -2497,8 +2140,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "428660",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "431960",
@@ -2507,10 +2150,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/431960/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/431960/"
@@ -2518,8 +2158,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "431960",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "435150",
@@ -2528,10 +2168,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/435150/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/435150/"
@@ -2539,8 +2176,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "435150",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "438100",
@@ -2549,10 +2186,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "2017-02-01",
     "earlyAccessDateStatus": "exact",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/438100/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/438100/"
@@ -2560,8 +2194,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "438100",
     "earlyAccessDatePrecision": "day",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "438420",
@@ -2570,10 +2204,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/438420/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/438420/"
@@ -2581,8 +2212,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "438420",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "447040",
@@ -2591,10 +2222,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/447040/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/447040/"
@@ -2602,8 +2230,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "447040",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "457140",
@@ -2612,10 +2240,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/457140/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/457140/"
@@ -2623,8 +2248,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "457140",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "466300",
@@ -2633,10 +2258,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/466300/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/466300/"
@@ -2644,8 +2266,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "466300",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "471710",
@@ -2654,10 +2276,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/471710/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/471710/"
@@ -2665,8 +2284,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "471710",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "474960",
@@ -2675,10 +2294,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/474960/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/474960/"
@@ -2686,8 +2302,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "474960",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "477160",
@@ -2696,10 +2312,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/477160/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/477160/"
@@ -2707,8 +2320,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "477160",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "480490",
@@ -2717,10 +2330,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/480490/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/480490/"
@@ -2728,8 +2338,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "480490",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "485460",
@@ -2738,10 +2348,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/485460/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/485460/"
@@ -2749,8 +2356,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "485460",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "489630",
@@ -2759,10 +2366,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/489630/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/489630/"
@@ -2770,8 +2374,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "489630",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "489830",
@@ -2780,10 +2384,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/489830/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/489830/"
@@ -2791,8 +2392,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "489830",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "493490",
@@ -2801,10 +2402,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/493490/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/493490/"
@@ -2812,8 +2410,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "493490",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "505230",
@@ -2822,10 +2420,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/505230/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/505230/"
@@ -2833,8 +2428,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "505230",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "515960",
@@ -2843,10 +2438,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/515960/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/515960/"
@@ -2854,8 +2446,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "515960",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "526870",
@@ -2864,10 +2456,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/526870/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/526870/"
@@ -2875,8 +2464,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "526870",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "534380",
@@ -2885,10 +2474,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/534380/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/534380/"
@@ -2896,8 +2482,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "534380",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "538030",
@@ -2906,10 +2492,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/538030/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/538030/"
@@ -2917,8 +2500,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "538030",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "544610",
@@ -2927,10 +2510,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/544610/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/544610/"
@@ -2938,8 +2518,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "544610",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "546560",
@@ -2948,10 +2528,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/546560/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/546560/"
@@ -2959,8 +2536,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "546560",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "548430",
@@ -2969,10 +2546,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/548430/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/548430/"
@@ -2980,8 +2554,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "548430",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "552500",
@@ -2990,10 +2564,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/552500/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/552500/"
@@ -3001,8 +2572,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "552500",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "552620",
@@ -3011,10 +2582,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/552620/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/552620/"
@@ -3022,8 +2590,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "552620",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "560130",
@@ -3032,10 +2600,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/560130/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/560130/"
@@ -3043,8 +2608,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "560130",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "564310",
@@ -3053,10 +2618,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/564310/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/564310/",
@@ -3065,8 +2627,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "564310",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "570940",
@@ -3075,10 +2637,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/570940/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/570940/"
@@ -3086,8 +2645,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "570940",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "578080",
@@ -3096,10 +2655,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/578080/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/578080/"
@@ -3107,8 +2663,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "578080",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "588430",
@@ -3117,10 +2673,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/588430/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/588430/"
@@ -3128,8 +2681,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "588430",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "590380",
@@ -3138,10 +2691,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/590380/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/590380/"
@@ -3149,8 +2699,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "590380",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "599140",
@@ -3159,10 +2709,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/599140/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/599140/"
@@ -3170,8 +2717,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "599140",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "601150",
@@ -3180,10 +2727,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/601150/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/601150/"
@@ -3191,8 +2735,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "601150",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "601430",
@@ -3201,10 +2745,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/601430/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/601430/"
@@ -3212,8 +2753,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "601430",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "606160",
@@ -3222,10 +2763,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/606160/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/606160/"
@@ -3233,8 +2771,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "606160",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "611670",
@@ -3243,10 +2781,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/611670/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/611670/"
@@ -3254,8 +2789,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "611670",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "613100",
@@ -3264,10 +2799,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/613100/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/613100/"
@@ -3275,8 +2807,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "613100",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "617290",
@@ -3285,10 +2817,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/617290/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/617290/"
@@ -3296,8 +2825,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "617290",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "617830",
@@ -3306,10 +2835,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/617830/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/617830/"
@@ -3317,8 +2843,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "617830",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "619700",
@@ -3327,10 +2853,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/619700/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/619700/"
@@ -3338,8 +2861,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "619700",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "620980",
@@ -3348,10 +2871,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/620980/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/620980/"
@@ -3359,8 +2879,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "620980",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "632470",
@@ -3369,10 +2889,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/632470/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/632470/"
@@ -3380,8 +2897,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "632470",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "638230",
@@ -3390,10 +2907,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/638230/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/638230/"
@@ -3401,8 +2915,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "638230",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "639770",
@@ -3411,10 +2925,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/639770/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/639770/"
@@ -3422,8 +2933,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "639770",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "640820",
@@ -3432,10 +2943,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/640820/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/640820/"
@@ -3443,8 +2951,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "640820",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "645630",
@@ -3453,10 +2961,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/645630/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/645630/"
@@ -3464,8 +2969,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "645630",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "648410",
@@ -3474,10 +2979,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/648410/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/648410/"
@@ -3485,8 +2987,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "648410",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "660160",
@@ -3495,10 +2997,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/660160/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/660160/"
@@ -3506,8 +3005,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "660160",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "673880",
@@ -3516,10 +3015,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/673880/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/673880/"
@@ -3527,8 +3023,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "673880",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "681280",
@@ -3537,10 +3033,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/681280/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/681280/"
@@ -3548,8 +3041,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "681280",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "698670",
@@ -3558,10 +3051,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/698670/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/698670/"
@@ -3569,8 +3059,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "698670",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "716630",
@@ -3579,10 +3069,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/716630/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/716630/"
@@ -3590,8 +3077,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "716630",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "719040",
@@ -3600,10 +3087,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/719040/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/719040/"
@@ -3611,8 +3095,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "719040",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "731040",
@@ -3621,10 +3105,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/731040/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/731040/"
@@ -3632,8 +3113,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "731040",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "738520",
@@ -3642,10 +3123,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/738520/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/738520/"
@@ -3653,8 +3131,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "738520",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "741820",
@@ -3663,10 +3141,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/741820/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/741820/"
@@ -3674,8 +3149,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "741820",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "752590",
@@ -3684,10 +3159,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/752590/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/752590/"
@@ -3695,8 +3167,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "752590",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "753640",
@@ -3705,10 +3177,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/753640/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/753640/"
@@ -3716,8 +3185,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "753640",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "782330",
@@ -3726,10 +3195,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/782330/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/782330/"
@@ -3737,8 +3203,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "782330",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "799600",
@@ -3747,10 +3213,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "2022-10-24",
     "earlyAccessDateStatus": "exact",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/799600/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/799600/"
@@ -3758,8 +3221,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "799600",
     "earlyAccessDatePrecision": "day",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "805550",
@@ -3768,10 +3231,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/805550/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/805550/"
@@ -3779,8 +3239,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "805550",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "814380",
@@ -3789,10 +3249,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/814380/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/814380/"
@@ -3800,8 +3257,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "814380",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "835960",
@@ -3810,10 +3267,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/835960/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/835960/"
@@ -3821,8 +3275,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "835960",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "848450",
@@ -3831,10 +3285,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/848450/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/848450/"
@@ -3842,8 +3293,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "848450",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "865680",
@@ -3852,10 +3303,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/865680/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/865680/"
@@ -3863,8 +3311,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "865680",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "870780",
@@ -3873,10 +3321,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/870780/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/870780/"
@@ -3884,8 +3329,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "870780",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "873940",
@@ -3894,10 +3339,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/873940/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/873940/"
@@ -3905,8 +3347,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "873940",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "883710",
@@ -3915,10 +3357,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/883710/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/883710/"
@@ -3926,8 +3365,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "883710",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "892970",
@@ -3936,10 +3375,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "2021-02-02",
     "earlyAccessDateStatus": "exact",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/892970/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/892970/"
@@ -3947,8 +3383,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "892970",
     "earlyAccessDatePrecision": "day",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "906100",
@@ -3957,10 +3393,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/906100/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/906100/"
@@ -3968,8 +3401,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "906100",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "920210",
@@ -3978,10 +3411,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/920210/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/920210/"
@@ -3989,8 +3419,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "920210",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "933820",
@@ -3999,10 +3429,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/933820/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/933820/"
@@ -4010,8 +3437,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "933820",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "939850",
@@ -4020,10 +3447,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/939850/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/939850/"
@@ -4031,8 +3455,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "939850",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "941460",
@@ -4041,10 +3465,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "2021-08-05",
     "earlyAccessDateStatus": "exact",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/941460/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/941460/"
@@ -4052,8 +3473,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "941460",
     "earlyAccessDatePrecision": "day",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "945360",
@@ -4062,10 +3483,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/945360/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/945360/"
@@ -4073,8 +3491,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "945360",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "952060",
@@ -4083,10 +3501,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/952060/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/952060/"
@@ -4094,8 +3509,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "952060",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "952070",
@@ -4104,10 +3519,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/952070/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/952070/",
@@ -4116,8 +3528,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "952070",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "954740",
@@ -4126,10 +3538,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/954740/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/954740/"
@@ -4137,8 +3546,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "954740",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "960910",
@@ -4147,10 +3556,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/960910/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/960910/"
@@ -4158,8 +3564,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "960910",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "960990",
@@ -4168,10 +3574,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/960990/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/960990/"
@@ -4179,8 +3582,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "960990",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "975370",
@@ -4189,10 +3592,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/975370/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/975370/"
@@ -4200,8 +3600,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "975370",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "976620",
@@ -4210,10 +3610,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/976620/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/976620/"
@@ -4221,8 +3618,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "976620",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "979110",
@@ -4231,10 +3628,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/979110/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/979110/"
@@ -4242,8 +3636,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "979110",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "999220",
@@ -4252,10 +3646,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/999220/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/999220/"
@@ -4263,8 +3654,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "999220",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1030840",
@@ -4273,10 +3664,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1030840/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1030840/"
@@ -4284,8 +3672,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1030840",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1080020",
@@ -4294,10 +3682,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1080020/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1080020/"
@@ -4305,8 +3690,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1080020",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1084160",
@@ -4315,10 +3700,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1084160/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1084160/"
@@ -4326,8 +3708,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1084160",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1086940",
@@ -4336,10 +3718,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1086940/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1086940/"
@@ -4347,8 +3726,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1086940",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1088850",
@@ -4357,10 +3736,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1088850/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1088850/"
@@ -4368,8 +3744,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1088850",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1101360",
@@ -4378,10 +3754,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1101360/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1101360/"
@@ -4389,8 +3762,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1101360",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1103210",
@@ -4399,10 +3772,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1103210/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1103210/"
@@ -4410,8 +3780,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1103210",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1129580",
@@ -4420,10 +3790,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1129580/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1129580/"
@@ -4431,8 +3798,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1129580",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1133870",
@@ -4441,10 +3808,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "2025-01-27",
     "earlyAccessDateStatus": "exact",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1133870/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1133870/"
@@ -4452,8 +3816,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1133870",
     "earlyAccessDatePrecision": "day",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1138660",
@@ -4462,10 +3826,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1138660/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1138660/"
@@ -4473,8 +3834,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1138660",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1139940",
@@ -4483,10 +3844,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1139940/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1139940/"
@@ -4494,8 +3852,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1139940",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1145360",
@@ -4504,10 +3862,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1145360/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1145360/"
@@ -4515,8 +3870,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1145360",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1147550",
@@ -4525,10 +3880,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1147550/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1147550/"
@@ -4536,8 +3888,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1147550",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1151340",
@@ -4546,10 +3898,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1151340/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1151340/"
@@ -4557,8 +3906,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1151340",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1151640",
@@ -4567,10 +3916,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1151640/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1151640/"
@@ -4578,8 +3924,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1151640",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1158310",
@@ -4588,10 +3934,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1158310/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1158310/"
@@ -4599,8 +3942,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1158310",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1161580",
@@ -4609,10 +3952,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1161580/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1161580/"
@@ -4620,8 +3960,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1161580",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1161590",
@@ -4630,10 +3970,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1161590/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1161590/"
@@ -4641,8 +3978,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1161590",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1167630",
@@ -4651,10 +3988,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1167630/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1167630/"
@@ -4662,8 +3996,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1167630",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1172380",
@@ -4672,10 +4006,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1172380/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1172380/"
@@ -4683,8 +4014,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1172380",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1174180",
@@ -4693,10 +4024,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1174180/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1174180/"
@@ -4704,8 +4032,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1174180",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1176710",
@@ -4714,10 +4042,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1176710/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1176710/"
@@ -4725,8 +4050,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1176710",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1182900",
@@ -4735,10 +4060,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1182900/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1182900/"
@@ -4746,8 +4068,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1182900",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1184370",
@@ -4756,10 +4078,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1184370/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1184370/"
@@ -4767,8 +4086,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1184370",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1194630",
@@ -4777,10 +4096,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1194630/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1194630/"
@@ -4788,8 +4104,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1194630",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1196590",
@@ -4798,10 +4114,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1196590/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1196590/"
@@ -4809,8 +4122,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1196590",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1199030",
@@ -4819,10 +4132,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1199030/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1199030/"
@@ -4830,8 +4140,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1199030",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1222140",
@@ -4840,10 +4150,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1222140/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1222140/"
@@ -4851,8 +4158,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1222140",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1222680",
@@ -4861,10 +4168,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1222680/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1222680/"
@@ -4872,8 +4176,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1222680",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1222700",
@@ -4882,10 +4186,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1222700/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1222700/"
@@ -4893,8 +4194,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1222700",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1222730",
@@ -4903,10 +4204,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1222730/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1222730/"
@@ -4914,8 +4212,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1222730",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1235140",
@@ -4924,10 +4222,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1235140/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1235140/"
@@ -4935,8 +4230,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1235140",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1236300",
@@ -4945,10 +4240,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1236300/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1236300/"
@@ -4956,8 +4248,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1236300",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1237950",
@@ -4966,10 +4258,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1237950/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1237950/"
@@ -4977,8 +4266,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1237950",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1237970",
@@ -4987,10 +4276,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1237970/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1237970/"
@@ -4998,8 +4284,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1237970",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1245430",
@@ -5008,10 +4294,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1245430/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1245430/"
@@ -5019,8 +4302,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1245430",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1245620",
@@ -5029,10 +4312,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1245620/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1245620/"
@@ -5040,8 +4320,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1245620",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1259420",
@@ -5050,10 +4330,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1259420/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1259420/"
@@ -5061,8 +4338,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1259420",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1272160",
@@ -5071,10 +4348,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1272160/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1272160/"
@@ -5082,8 +4356,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1272160",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1281590",
@@ -5092,10 +4366,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1281590/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1281590/"
@@ -5103,8 +4374,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1281590",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1284190",
@@ -5113,10 +4384,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1284190/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1284190/"
@@ -5124,8 +4392,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1284190",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1297900",
@@ -5134,10 +4402,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1297900/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1297900/"
@@ -5145,8 +4410,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1297900",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1304930",
@@ -5155,10 +4420,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1304930/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1304930/"
@@ -5166,8 +4428,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1304930",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1307710",
@@ -5176,10 +4438,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1307710/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1307710/"
@@ -5187,8 +4446,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1307710",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1326470",
@@ -5197,10 +4456,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1326470/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1326470/"
@@ -5208,8 +4464,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1326470",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1328660",
@@ -5218,10 +4474,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1328660/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1328660/"
@@ -5229,8 +4482,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1328660",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1328670",
@@ -5239,10 +4492,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1328670/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1328670/"
@@ -5250,8 +4500,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1328670",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1332010",
@@ -5260,10 +4510,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1332010/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1332010/"
@@ -5271,8 +4518,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1332010",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1336490",
@@ -5281,10 +4528,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1336490/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1336490/"
@@ -5292,8 +4536,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1336490",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1367590",
@@ -5302,10 +4546,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1367590/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1367590/"
@@ -5313,8 +4554,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1367590",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1371980",
@@ -5323,10 +4564,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "2024-04-18",
     "earlyAccessDateStatus": "exact",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1371980/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1371980/"
@@ -5334,8 +4572,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1371980",
     "earlyAccessDatePrecision": "day",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1373960",
@@ -5344,10 +4582,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1373960/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1373960/"
@@ -5355,8 +4590,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1373960",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1376200",
@@ -5365,10 +4600,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1376200/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1376200/"
@@ -5376,8 +4608,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1376200",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1386900",
@@ -5386,10 +4618,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1386900/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1386900/"
@@ -5397,8 +4626,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1386900",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1422450",
@@ -5407,10 +4636,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "unknown",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1422450/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1422450/"
@@ -5418,8 +4644,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "unknown",
     "steamAppId": "1422450",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1426210",
@@ -5428,10 +4654,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1426210/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1426210/"
@@ -5439,8 +4662,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1426210",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1449560",
@@ -5449,10 +4672,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1449560/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1449560/"
@@ -5460,8 +4680,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1449560",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1458140",
@@ -5470,10 +4690,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1458140/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1458140/"
@@ -5481,8 +4698,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1458140",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1469610",
@@ -5491,10 +4708,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1469610/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1469610/"
@@ -5502,8 +4716,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1469610",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1481400",
@@ -5512,10 +4726,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1481400/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1481400/"
@@ -5523,8 +4734,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1481400",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1527950",
@@ -5533,10 +4744,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1527950/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1527950/"
@@ -5544,8 +4752,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1527950",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1537710",
@@ -5554,10 +4762,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "unknown",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1537710/",
-    "note": "",
     "addedAt": "2026-06-22",
     "steamAppId": "1537710",
     "sources": [
@@ -5565,8 +4770,8 @@ const ORIGINAL_GAMES = [
     ],
     "releaseDatePrecision": "unknown",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1551360",
@@ -5575,10 +4780,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1551360/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1551360/"
@@ -5586,8 +4788,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1551360",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1562430",
@@ -5596,10 +4798,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1562430/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1562430/"
@@ -5607,8 +4806,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1562430",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1583230",
@@ -5617,10 +4816,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1583230/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1583230/"
@@ -5628,8 +4824,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1583230",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1593500",
@@ -5638,10 +4834,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1593500/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1593500/"
@@ -5649,8 +4842,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1593500",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1601570",
@@ -5659,10 +4852,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1601570/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1601570/"
@@ -5670,8 +4860,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1601570",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1601580",
@@ -5680,10 +4870,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1601580/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1601580/"
@@ -5691,8 +4878,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1601580",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1609080",
@@ -5701,10 +4888,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1609080/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1609080/"
@@ -5712,8 +4896,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1609080",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1620040",
@@ -5722,10 +4906,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1620040/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1620040/"
@@ -5733,8 +4914,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1620040",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1649240",
@@ -5743,10 +4924,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1649240/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1649240/"
@@ -5754,8 +4932,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1649240",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1659040",
@@ -5764,10 +4942,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1659040/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1659040/"
@@ -5775,8 +4950,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1659040",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1669000",
@@ -5785,10 +4960,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1669000/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1669000/"
@@ -5796,8 +4968,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1669000",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1681430",
@@ -5806,10 +4978,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1681430/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1681430/"
@@ -5817,8 +4986,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1681430",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1684350",
@@ -5827,10 +4996,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1684350/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1684350/"
@@ -5838,8 +5004,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1684350",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1693980",
@@ -5848,10 +5014,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1693980/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1693980/"
@@ -5859,8 +5022,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1693980",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1716740",
@@ -5869,10 +5032,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1716740/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1716740/"
@@ -5880,8 +5040,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1716740",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1771300",
@@ -5890,10 +5050,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1771300/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1771300/"
@@ -5901,8 +5058,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1771300",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1774580",
@@ -5911,10 +5068,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1774580/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1774580/"
@@ -5922,8 +5076,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1774580",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1775270",
@@ -5932,10 +5086,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1775270/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1775270/"
@@ -5943,8 +5094,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1775270",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1783560",
@@ -5953,10 +5104,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "2025-11-06",
     "earlyAccessDateStatus": "exact",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1783560/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1783560/"
@@ -5964,8 +5112,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1783560",
     "earlyAccessDatePrecision": "day",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1792250",
@@ -5974,10 +5122,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1792250/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1792250/"
@@ -5985,8 +5130,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1792250",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1808500",
@@ -5995,10 +5140,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1808500/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1808500/"
@@ -6006,8 +5148,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1808500",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1830720",
@@ -6016,10 +5158,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1830720/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1830720/"
@@ -6027,8 +5166,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1830720",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1857080",
@@ -6037,10 +5176,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1857080/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1857080/"
@@ -6048,8 +5184,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1857080",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1903340",
@@ -6058,10 +5194,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1903340/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1903340/"
@@ -6069,8 +5202,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1903340",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1946700",
@@ -6079,10 +5212,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1946700/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1946700/"
@@ -6090,8 +5220,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1946700",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "1962700",
@@ -6100,10 +5230,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "2026-05-14",
     "earlyAccessDateStatus": "exact",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/1962700/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/1962700/"
@@ -6111,8 +5238,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "1962700",
     "earlyAccessDatePrecision": "day",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "2050650",
@@ -6121,10 +5248,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/2050650/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/2050650/"
@@ -6132,8 +5256,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "2050650",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "2274200",
@@ -6142,10 +5266,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/2274200/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/2274200/"
@@ -6153,8 +5274,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "2274200",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "2362420",
@@ -6163,10 +5284,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/2362420/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/2362420/"
@@ -6174,8 +5292,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "2362420",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "2464280",
@@ -6184,10 +5302,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/2464280/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/2464280/"
@@ -6195,8 +5310,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "2464280",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "2475490",
@@ -6205,10 +5320,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/2475490/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/2475490/"
@@ -6216,8 +5328,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "2475490",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "2497900",
@@ -6226,10 +5338,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/2497900/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/2497900/"
@@ -6237,8 +5346,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "2497900",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "2592160",
@@ -6247,10 +5356,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/2592160/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/2592160/"
@@ -6258,8 +5364,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "2592160",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "2629330",
@@ -6268,10 +5374,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/2629330/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/2629330/"
@@ -6279,8 +5382,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "2629330",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "2806640",
@@ -6289,10 +5392,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/2806640/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/2806640/"
@@ -6300,8 +5400,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "2806640",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "2842040",
@@ -6310,10 +5410,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/2842040/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/2842040/"
@@ -6321,8 +5418,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "2842040",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "2859370",
@@ -6331,10 +5428,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/2859370/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/2859370/"
@@ -6342,8 +5436,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "2859370",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "2881650",
@@ -6352,10 +5446,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/2881650/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/2881650/"
@@ -6363,8 +5454,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "2881650",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "2967990",
@@ -6373,10 +5464,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/2967990/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/2967990/"
@@ -6384,8 +5472,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "2967990",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "3008130",
@@ -6394,10 +5482,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/3008130/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/3008130/"
@@ -6405,8 +5490,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "3008130",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "3097560",
@@ -6415,10 +5500,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "2024-10-02",
     "earlyAccessDateStatus": "exact",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/3097560/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/3097560/"
@@ -6426,8 +5508,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "3097560",
     "earlyAccessDatePrecision": "day",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "3105440",
@@ -6436,10 +5518,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "2026-04-30",
     "earlyAccessDateStatus": "exact",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/3105440/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/3105440/"
@@ -6447,8 +5526,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "3105440",
     "earlyAccessDatePrecision": "day",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "3167020",
@@ -6457,10 +5536,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/3167020/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/3167020/"
@@ -6468,8 +5544,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "3167020",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "3244220",
@@ -6478,10 +5554,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/3244220/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/3244220/"
@@ -6489,8 +5562,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "3244220",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "3280350",
@@ -6499,10 +5572,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/3280350/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/3280350/"
@@ -6510,8 +5580,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "3280350",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "3419520",
@@ -6520,10 +5590,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/3419520/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/3419520/"
@@ -6531,8 +5598,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "3419520",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "3564740",
@@ -6541,10 +5608,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/3564740/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/3564740/"
@@ -6552,8 +5616,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "3564740",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "3764200",
@@ -6562,10 +5626,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/3764200/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/3764200/"
@@ -6573,8 +5634,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "3764200",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "3829120",
@@ -6583,10 +5644,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/3829120/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/3829120/"
@@ -6594,8 +5652,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "3829120",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "3922100",
@@ -6604,10 +5662,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/3922100/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/3922100/"
@@ -6615,8 +5670,8 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "3922100",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   },
   {
     "id": "3929970",
@@ -6625,10 +5680,7 @@ const ORIGINAL_GAMES = [
     "releaseDateStatus": "exact",
     "earlyAccessDate": "",
     "earlyAccessDateStatus": "unknown",
-    "earlyVersionDate": "",
-    "earlyVersionDateStatus": "unknown",
     "sourceUrl": "https://store.steampowered.com/app/3929970/",
-    "note": "",
     "addedAt": "2026-06-22",
     "sources": [
       "https://store.steampowered.com/app/3929970/"
@@ -6636,33 +5688,45 @@ const ORIGINAL_GAMES = [
     "releaseDatePrecision": "day",
     "steamAppId": "3929970",
     "earlyAccessDatePrecision": "unknown",
-    "earlyPublicDate": "",
-    "earlyPublicDatePrecision": "unknown"
+    "platform": "Steam",
+    "status": ""
   }
-];
-const LS_DATA='gameLibraryData.v1', LS_PREF='gameLibraryPrefs.v1';
-let games=loadData(), prefs=Object.assign({sort:'title',dir:'asc',view:'table',theme:'dark',q:'',hasEa:false,hasEarly:false,unknown:false,decade:''}, JSON.parse(localStorage.getItem(LS_PREF)||'{}'));
+]
+const LS_DATA='gameLibraryData.v1', LS_PREF='gameLibraryPrefs.v1', DATA_VERSION=2;
+const PLATFORMS=['','Steam','Epic','GOG','PS','Пиратка','Другое'];
+const STATUSES=['','Прошёл','Дропнул'];
+let lastMigrationSteamCount=0;
+let games=loadData(), prefs=Object.assign({sort:'title',dir:'asc',view:'table',theme:'dark',q:'',hasEa:false,unknown:false,decade:'',platform:'',status:''}, JSON.parse(localStorage.getItem(LS_PREF)||'{}'));
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-function clone(v){return JSON.parse(JSON.stringify(v))} function save(){localStorage.setItem(LS_DATA,JSON.stringify(games));}
+function clone(v){return JSON.parse(JSON.stringify(v))}
+function hasSteamSource(g){return !!(g.steamAppId||String(g.sourceUrl||'').includes('store.steampowered.com/app/')||(g.sources||[]).some(s=>String(s).includes('store.steampowered.com/app/')))}
+function validPlatform(v){return PLATFORMS.includes(v)?v:''}
+function validStatus(v){return STATUSES.includes(v)?v:''}
+function normalizeGame(g){let before=g.platform; let platform=validPlatform(g.platform); if(!platform&&hasSteamSource(g))platform='Steam'; if(!before&&platform==='Steam')lastMigrationSteamCount++; return {id:g.id||String(Date.now()+Math.random()),title:g.title||'',releaseDate:g.releaseDate||'',releaseDateStatus:g.releaseDateStatus||'unknown',earlyAccessDate:g.earlyAccessDate||'',earlyAccessDateStatus:g.earlyAccessDateStatus||'unknown',platform,status:validStatus(g.status),sourceUrl:g.sourceUrl||'',addedAt:g.addedAt||new Date().toISOString().slice(0,10),sources:Array.isArray(g.sources)?g.sources:[],releaseDatePrecision:g.releaseDatePrecision,steamAppId:g.steamAppId,earlyAccessDatePrecision:g.earlyAccessDatePrecision}}
+function exportGame(g){let x=normalizeGame(g); Object.keys(x).forEach(k=>x[k]===undefined&&delete x[k]); return x}
+function save(){localStorage.setItem(LS_DATA,JSON.stringify(games.map(exportGame)));}
 function savePrefs(){localStorage.setItem(LS_PREF,JSON.stringify(prefs)); document.documentElement.dataset.theme=prefs.theme;}
-function loadData(){try{return JSON.parse(localStorage.getItem(LS_DATA))||clone(ORIGINAL_GAMES)}catch{return clone(ORIGINAL_GAMES)}}
+function loadData(){try{let raw=JSON.parse(localStorage.getItem(LS_DATA)); let arr=Array.isArray(raw)?raw:(Array.isArray(raw?.games)?raw.games:null); return (arr&&arr.length?arr:clone(ORIGINAL_GAMES)).map(normalizeGame)}catch{return clone(ORIGINAL_GAMES).map(normalizeGame)}}
 function fmt(d,st){if(!d)return '—'; if(st==='year')return d.slice(0,4); return new Intl.DateTimeFormat('ru-RU',{day:'numeric',month:'long',year:'numeric'}).format(new Date(d+'T00:00:00'));}
-function text(el,v){el.textContent=v||''} function unknown(g){return !g.releaseDate||g.releaseDateStatus==='unknown'||g.earlyAccessDateStatus==='unknown'||g.earlyVersionDateStatus==='unknown'}
-function filtered(){let q=prefs.q.toLowerCase(); return games.filter(g=>(!q||g.title.toLowerCase().includes(q)||(g.note||'').toLowerCase().includes(q))&&(!prefs.hasEa||g.earlyAccessDate)&&(!prefs.hasEarly||g.earlyVersionDate)&&(!prefs.unknown||unknown(g))&&(!prefs.decade||(g.releaseDate&&Math.floor(+g.releaseDate.slice(0,4)/10)*10==prefs.decade))).sort(cmp)}
-function cmp(a,b){let k=prefs.sort, av=a[k]||'', bv=b[k]||''; if(!av&&bv)return 1; if(av&&!bv)return -1; let r=k==='title'?av.localeCompare(bv,'ru',{sensitivity:'base'}):av.localeCompare(bv); return prefs.dir==='asc'?r:-r;}
-function render(){savePrefs(); $('#search').value=prefs.q; $('#hasEa').checked=prefs.hasEa; $('#hasEarly').checked=prefs.hasEarly; $('#unknown').checked=prefs.unknown; $('#decade').value=prefs.decade; $('#themeBtn').textContent=prefs.theme==='dark'?'Светлая тема':'Тёмная тема'; $('#viewBtn').textContent=prefs.view==='table'?'Карточки':'Таблица'; document.body.classList.toggle('card-mode',prefs.view==='cards'); renderDecades(); let rows=filtered(); text($('#counter'),`Найдено ${rows.length} из ${games.length} игр`); renderStats(); renderTable(rows); renderCards(rows);}
+function text(el,v){el.textContent=v||''} function unknown(g){return !g.releaseDate||g.releaseDateStatus==='unknown'||g.earlyAccessDateStatus==='unknown'}
+function badge(v,type){let s=document.createElement('span'); s.className='badge '+(type||''); s.textContent=v||'—'; return s}
+function filtered(){let q=prefs.q.toLowerCase(); return games.filter(g=>(!q||g.title.toLowerCase().includes(q))&&(!prefs.hasEa||g.earlyAccessDate)&&(!prefs.unknown||unknown(g))&&(!prefs.decade||(g.releaseDate&&Math.floor(+g.releaseDate.slice(0,4)/10)*10==prefs.decade))&&(!prefs.platform||(prefs.platform==='__empty__'?!g.platform:g.platform===prefs.platform))&&(!prefs.status||(prefs.status==='__empty__'?!g.status:g.status===prefs.status))).sort(cmp)}
+function cmp(a,b){let k=prefs.sort, av=a[k]||'', bv=b[k]||''; if(!av&&bv)return 1; if(av&&!bv)return -1; let r=k==='title'?av.localeCompare(bv,'ru',{sensitivity:'base'}):av.localeCompare(bv,'ru'); return prefs.dir==='asc'?r:-r;}
+function render(){savePrefs(); $('#search').value=prefs.q; $('#hasEa').checked=prefs.hasEa; $('#unknown').checked=prefs.unknown; $('#decade').value=prefs.decade; $('#platformFilter').value=prefs.platform; $('#statusFilter').value=prefs.status; $('#themeBtn').textContent=prefs.theme==='dark'?'Светлая тема':'Тёмная тема'; $('#viewBtn').textContent=prefs.view==='table'?'Карточки':'Таблица'; document.body.classList.toggle('card-mode',prefs.view==='cards'); renderDecades(); renderPlatformFilter(); let rows=filtered(); text($('#counter'),`Найдено ${rows.length} из ${games.length} игр`); renderStats(); renderTable(rows); renderCards(rows);}
 function renderDecades(){let vals=[...new Set(games.filter(g=>g.releaseDate).map(g=>Math.floor(+g.releaseDate.slice(0,4)/10)*10))].sort(); $('#decade').innerHTML='<option value="">Все десятилетия</option>'+vals.map(v=>`<option value="${v}">${v}-е годы</option>`).join('')}
+function renderPlatformFilter(){let used=[...new Set(games.map(g=>g.platform).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ru')); $('#platformFilter').innerHTML='<option value="">Все платформы</option><option value="__empty__">Платформа не указана</option>'+used.map(v=>`<option value="${v}">${v}</option>`).join(''); $('#platformFilter').value=prefs.platform;}
 function cells(tr, vals){vals.forEach(v=>{let td=document.createElement('td'); if(v instanceof Node)td.append(v); else td.textContent=v; tr.append(td);});}
 function actions(g){let box=document.createElement('div'); box.className='row-actions'; let e=document.createElement('button'), d=document.createElement('button'); e.textContent='Изменить'; d.textContent='Удалить'; e.onclick=()=>openForm(g); d.onclick=()=>{if(confirm(`Удалить «${g.title}»?`)){games=games.filter(x=>x.id!==g.id); save(); render();}}; box.append(e,d); return box;}
-function renderTable(rows){$$('th[data-sort]').forEach(th=>{th.classList.toggle('active',th.dataset.sort===prefs.sort); th.textContent=({title:'Название',releaseDate:'Полный релиз',earlyAccessDate:'Ранний доступ',earlyVersionDate:'Ранняя версия'}[th.dataset.sort])+(th.dataset.sort===prefs.sort?(prefs.dir==='asc'?' ▲':' ▼'):'')}); let tb=$('#gamesTable tbody'); tb.textContent=''; rows.forEach(g=>{let tr=document.createElement('tr'); cells(tr,[g.title,fmt(g.releaseDate,g.releaseDateStatus),fmt(g.earlyAccessDate,g.earlyAccessDateStatus),fmt(g.earlyVersionDate,g.earlyVersionDateStatus),g.note||'—',actions(g)]); tb.append(tr);});}
-function renderCards(rows){let c=$('#cards'); c.textContent=''; rows.forEach(g=>{let a=document.createElement('article'); a.className='card'; cells(a,[g.title,`Релиз: ${fmt(g.releaseDate,g.releaseDateStatus)}`,`EA: ${fmt(g.earlyAccessDate,g.earlyAccessDateStatus)}`,g.note||'Без заметки',actions(g)]); c.append(a);});}
-function renderStats(){let known=games.filter(g=>g.releaseDate).length, dated=games.filter(g=>g.releaseDate).sort((a,b)=>a.releaseDate.localeCompare(b.releaseDate)); $('#stats').innerHTML=`<div>Всего: <b>${games.length}</b></div><div>С датой релиза: <b>${known}</b></div><div>Без даты: <b>${games.length-known}</b></div><div>Ранний доступ: <b>${games.filter(g=>g.earlyAccessDate).length}</b></div><div>Самая старая: <b>${dated[0]?.title||'—'}</b></div><div>Самая новая: <b>${dated.at(-1)?.title||'—'}</b></div>`;}
-function openForm(g){$('#gameForm').reset(); $('#editId').value=g?.id||''; $('#formTitle').textContent=g?'Редактировать игру':'Добавить игру'; ['title','release','ea','early','source','note'].forEach(()=>{}); $('#titleInput').value=g?.title||''; $('#releaseInput').value=g?.releaseDate||''; $('#eaInput').value=g?.earlyAccessDate||''; $('#earlyInput').value=g?.earlyVersionDate||''; $('#releaseStatus').value=g?.releaseDateStatus||'unknown'; $('#eaStatus').value=g?.earlyAccessDateStatus||'unknown'; $('#earlyStatus').value=g?.earlyVersionDateStatus||'unknown'; $('#sourceInput').value=g?.sourceUrl||''; $('#noteInput').value=g?.note||''; $('#editor').showModal();}
-$('#gameForm').onsubmit=e=>{e.preventDefault(); let id=$('#editId').value||String(Date.now()), title=$('#titleInput').value.trim(); if(!title)return; let dup=games.find(g=>g.id!==id&&g.title.toLowerCase()===title.toLowerCase()); if(dup&&!confirm('Игра с таким названием уже есть. Всё равно сохранить?'))return; let g={id,title,releaseDate:$('#releaseInput').value,releaseDateStatus:$('#releaseStatus').value,earlyAccessDate:$('#eaInput').value,earlyAccessDateStatus:$('#eaStatus').value,earlyVersionDate:$('#earlyInput').value,earlyVersionDateStatus:$('#earlyStatus').value,sourceUrl:$('#sourceInput').value,note:$('#noteInput').value,addedAt:games.find(x=>x.id===id)?.addedAt||new Date().toISOString().slice(0,10)}; games=games.some(x=>x.id===id)?games.map(x=>x.id===id?g:x):[g,...games]; save(); $('#editor').close(); render();};
+function statusBadge(g){return badge(g.status,g.status==='Прошёл'?'ok':g.status==='Дропнул'?'warn':'')}
+function renderTable(rows){$$('th[data-sort]').forEach(th=>{th.classList.toggle('active',th.dataset.sort===prefs.sort); th.textContent=({title:'Название',releaseDate:'Полный релиз',earlyAccessDate:'Ранний доступ',platform:'Платформа',status:'Статус'}[th.dataset.sort])+(th.dataset.sort===prefs.sort?(prefs.dir==='asc'?' ▲':' ▼'):'')}); let tb=$('#gamesTable tbody'); tb.textContent=''; rows.forEach(g=>{let tr=document.createElement('tr'); cells(tr,[g.title,fmt(g.releaseDate,g.releaseDateStatus),fmt(g.earlyAccessDate,g.earlyAccessDateStatus),badge(g.platform),statusBadge(g),actions(g)]); tb.append(tr);});}
+function renderCards(rows){let c=$('#cards'); c.textContent=''; rows.forEach(g=>{let a=document.createElement('article'); a.className='card'; cells(a,[g.title,`Релиз: ${fmt(g.releaseDate,g.releaseDateStatus)}`,`EA: ${fmt(g.earlyAccessDate,g.earlyAccessDateStatus)}`,`Платформа: ${g.platform||'—'}`,`Статус: ${g.status||'—'}`,actions(g)]); c.append(a);});}
+function renderStats(){let known=games.filter(g=>g.releaseDate).length, dated=games.filter(g=>g.releaseDate).sort((a,b)=>a.releaseDate.localeCompare(b.releaseDate)); let p=[...new Set(games.map(g=>g.platform).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ru')).map(v=>`<div>${v}: <b>${games.filter(g=>g.platform===v).length}</b></div>`).join(''); $('#stats').innerHTML=`<div>Всего: <b>${games.length}</b></div><div>С датой релиза: <b>${known}</b></div><div>Без даты: <b>${games.length-known}</b></div><div>Ранний доступ: <b>${games.filter(g=>g.earlyAccessDate).length}</b></div><div>Прошёл: <b>${games.filter(g=>g.status==='Прошёл').length}</b></div><div>Дропнул: <b>${games.filter(g=>g.status==='Дропнул').length}</b></div><div>Без статуса: <b>${games.filter(g=>!g.status).length}</b></div><div>Самая старая: <b>${dated[0]?.title||'—'}</b></div><div>Самая новая: <b>${dated.at(-1)?.title||'—'}</b></div>${p}`;}
+function openForm(g){$('#gameForm').reset(); $('#editId').value=g?.id||''; $('#formTitle').textContent=g?'Редактировать игру':'Добавить игру'; $('#titleInput').value=g?.title||''; $('#releaseInput').value=g?.releaseDate||''; $('#eaInput').value=g?.earlyAccessDate||''; $('#releaseStatus').value=g?.releaseDateStatus||'unknown'; $('#eaStatus').value=g?.earlyAccessDateStatus||'unknown'; $('#platformInput').value=g?.platform||''; $('#statusInput').value=g?.status||''; $('#sourceInput').value=g?.sourceUrl||''; $('#editor').showModal();}
+$('#gameForm').onsubmit=e=>{e.preventDefault(); let id=$('#editId').value||String(Date.now()), title=$('#titleInput').value.trim(); if(!title)return; let dup=games.find(g=>g.id!==id&&g.title.toLowerCase()===title.toLowerCase()); if(dup&&!confirm('Игра с таким названием уже есть. Всё равно сохранить?'))return; let old=games.find(x=>x.id===id)||{}; let g=normalizeGame({...old,id,title,releaseDate:$('#releaseInput').value,releaseDateStatus:$('#releaseStatus').value,earlyAccessDate:$('#eaInput').value,earlyAccessDateStatus:$('#eaStatus').value,platform:$('#platformInput').value,status:$('#statusInput').value,sourceUrl:$('#sourceInput').value,addedAt:old.addedAt||new Date().toISOString().slice(0,10)}); games=games.some(x=>x.id===id)?games.map(x=>x.id===id?g:x):[g,...games]; save(); $('#editor').close(); render();};
 function download(name, data, type){let a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([data],{type})); a.download=name; a.click(); URL.revokeObjectURL(a.href)}
-function csv(rows){let esc=v=>'"'+String(v??'').replaceAll('"','""')+'"'; return ['Название,Полный релиз,Ранний доступ,Ранняя версия,Заметка'].concat(rows.map(g=>[g.title,g.releaseDate,g.earlyAccessDate,g.earlyVersionDate,g.note].map(esc).join(','))).join('\n')}
+function csv(rows){let esc=v=>'"'+String(v??'').replaceAll('"','""')+'"'; return ['Название,Полный релиз,Ранний доступ,Платформа,Статус'].concat(rows.map(g=>[g.title,g.releaseDate,g.earlyAccessDate,g.platform,g.status].map(esc).join(','))).join('\n')}
 $$('th[data-sort]').forEach(th=>th.onclick=()=>{prefs.dir=prefs.sort===th.dataset.sort&&prefs.dir==='asc'?'desc':'asc'; prefs.sort=th.dataset.sort; render();});
-['search','hasEa','hasEarly','unknown','decade'].forEach(id=>$('#'+id).oninput=e=>{let m={search:'q',hasEa:'hasEa',hasEarly:'hasEarly',unknown:'unknown',decade:'decade'}[id]; prefs[m]=e.target.type==='checkbox'?e.target.checked:e.target.value; render();});
-$('#resetFilters').onclick=()=>{Object.assign(prefs,{q:'',hasEa:false,hasEarly:false,unknown:false,decade:''});render()}; $('#themeBtn').onclick=()=>{prefs.theme=prefs.theme==='dark'?'light':'dark';render()}; $('#viewBtn').onclick=()=>{prefs.view=prefs.view==='table'?'cards':'table';render()}; $('#addBtn').onclick=()=>openForm(); $('#cancelBtn').onclick=()=>$('#editor').close(); $('#clearDates').onclick=()=>{$('#releaseInput').value=$('#eaInput').value=$('#earlyInput').value=''}; $('#exportJson').onclick=()=>download('game-library.json',JSON.stringify(games,null,2),'application/json'); $('#exportCsv').onclick=()=>download('game-library.csv',csv(filtered()),'text/csv;charset=utf-8'); $('#restoreBtn').onclick=()=>{if(confirm('Заменить данные исходным списком?')){games=clone(ORIGINAL_GAMES);save();render();}}; $('#randomBtn').onclick=()=>{let r=filtered(), g=r[Math.floor(Math.random()*r.length)]; if(g){$('#randomBox').classList.remove('hidden'); text($('#randomBox'),`Случайная игра: ${g.title}`)}}; $('#missingBtn').onclick=()=>{prefs.unknown=true;render();scrollTo(0,document.querySelector('.table-wrap').offsetTop)};
-$('#importJson').onchange=e=>{let f=e.target.files[0]; if(!f)return; f.text().then(t=>{try{let a=JSON.parse(t); if(!Array.isArray(a)||!a.every(x=>x&&typeof x.title==='string'))throw Error(); if(confirm('Импорт полностью заменит текущую библиотеку. Продолжить?')){games=a;save();render();}}catch{alert('JSON повреждён или формат не поддерживается. Нужен массив игр с полем title.')}})};
-savePrefs(); render();
+['search','hasEa','unknown','decade','platformFilter','statusFilter'].forEach(id=>$('#'+id).oninput=e=>{let m={search:'q',hasEa:'hasEa',unknown:'unknown',decade:'decade',platformFilter:'platform',statusFilter:'status'}[id]; prefs[m]=e.target.type==='checkbox'?e.target.checked:e.target.value; render();});
+$('#resetFilters').onclick=()=>{Object.assign(prefs,{q:'',hasEa:false,unknown:false,decade:'',platform:'',status:''});render()}; $('#themeBtn').onclick=()=>{prefs.theme=prefs.theme==='dark'?'light':'dark';render()}; $('#viewBtn').onclick=()=>{prefs.view=prefs.view==='table'?'cards':'table';render()}; $('#addBtn').onclick=()=>openForm(); $('#cancelBtn').onclick=()=>$('#editor').close(); $('#clearDates').onclick=()=>{$('#releaseInput').value=$('#eaInput').value=''}; $('#exportJson').onclick=()=>download('game-library.json',JSON.stringify({version:DATA_VERSION,games:games.map(exportGame)},null,2),'application/json'); $('#exportCsv').onclick=()=>download('game-library.csv',csv(filtered()),'text/csv;charset=utf-8'); $('#restoreBtn').onclick=()=>{if(confirm('Заменить данные исходным списком?')){lastMigrationSteamCount=0;games=clone(ORIGINAL_GAMES).map(normalizeGame);save();render();alert(`Платформа Steam установлена автоматически для ${lastMigrationSteamCount} игр.`);}}; $('#randomBtn').onclick=()=>{let r=filtered(), g=r[Math.floor(Math.random()*r.length)]; if(g){$('#randomBox').classList.remove('hidden'); text($('#randomBox'),`Случайная игра: ${g.title}`)}}; $('#missingBtn').onclick=()=>{prefs.unknown=true;render();scrollTo(0,document.querySelector('.table-wrap').offsetTop)};
+$('#importJson').onchange=e=>{let f=e.target.files[0]; if(!f)return; f.text().then(t=>{try{let raw=JSON.parse(t), a=Array.isArray(raw)?raw:raw.games; if(!Array.isArray(a)||!a.every(x=>x&&typeof x.title==='string'))throw Error(); let warnings=[]; a.forEach(x=>{if(x.platform&&!PLATFORMS.includes(x.platform))warnings.push(`Неизвестная платформа у «${x.title}»: ${x.platform}`); if(x.status&&!STATUSES.includes(x.status))warnings.push(`Неизвестный статус у «${x.title}»: ${x.status}`)}); if(confirm('Импорт полностью заменит текущую библиотеку. Продолжить?')){lastMigrationSteamCount=0;games=a.map(normalizeGame);save();render();alert(['Импорт завершён.',`Автоматически Steam: ${lastMigrationSteamCount}`,...warnings].join('\n'));}}catch{alert('JSON повреждён или формат не поддерживается. Нужен массив игр или объект {version, games}.')}})};
+save(); savePrefs(); render();
