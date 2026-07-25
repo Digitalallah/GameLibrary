@@ -1,0 +1,22 @@
+[Unit]
+Description=Private GameLibrary
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=gamelibrary
+Group=gamelibrary
+WorkingDirectory=/opt/GameLibrary
+EnvironmentFile=/etc/gamelibrary.env
+ExecStart=/usr/bin/node /opt/GameLibrary/server.js
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/gamelibrary
+
+[Install]
+WantedBy=multi-user.target
