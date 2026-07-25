@@ -6,7 +6,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
-const DATA_VERSION = 3;
+const DATA_VERSION = 4;
 const PORT = Number(process.env.PORT || 3210);
 const HOST = process.env.HOST || '127.0.0.1';
 const DATA_DIR = path.resolve(process.env.DATA_DIR || path.join(ROOT, 'data'));
@@ -15,6 +15,7 @@ const BACKUP_DIR = path.join(DATA_DIR, 'backups');
 const INITIAL_FILE = path.join(ROOT, 'games.json');
 const OVERRIDES_FILE = path.join(ROOT, 'release-overrides.json');
 const MUTATING_METHODS = new Set(['POST', 'PUT', 'PATCH', 'DELETE']);
+const TRUSTED_RELEASE_SOURCES = new Set(['manual', 'override', 'wikidata']);
 const STATIC_FILES = new Map([
   ['/', ['index.html', 'text/html; charset=utf-8']],
   ['/index.html', ['index.html', 'text/html; charset=utf-8']],
@@ -34,6 +35,10 @@ export function isPartialIsoDate(value) {
   if (year < 1970 || year > 2200 || month < 1 || month > 12 || day < 1 || day > 31) return false;
   const date = new Date(Date.UTC(year, month - 1, day));
   return date.getUTCFullYear() === year && date.getUTCMonth() === month - 1 && date.getUTCDate() === day;
+}
+
+function validNonEmptyDate(value) {
+  return typeof value === 'string' && value !== '' && isPartialIsoDate(value);
 }
 
 function inferPrecision(value) {
@@ -62,6 +67,12 @@ export function normalizeGame(input = {}) {
   const status = cleanText(input.status, 50);
   const platform = cleanText(input.platform, 50) || (steamAppId ? 'Steam' : 'Другое');
   const id = cleanText(input.id, 100) || (steamAppId ? `steam:${steamAppId}` : randomUUID());
+  const rawReleaseSource = cleanText(input.releaseDateSource, 30);
+  const releaseDateSource = TRUSTED_RELEASE_SOURCES.has(rawReleaseSource)
+    ? rawReleaseSource
+    : releaseDate
+      ? 'unverified'
+      : 'unknown';
 
   return {
     id,
@@ -71,9 +82,7 @@ export function normalizeGame(input = {}) {
     releaseDatePrecision: ['day', 'month', 'year', 'unknown'].includes(input.releaseDatePrecision)
       ? input.releaseDatePrecision
       : inferPrecision(releaseDate),
-    releaseDateSource: ['manual', 'override', 'wikidata', 'steam-fallback', 'legacy', 'imported'].includes(input.releaseDateSource)
-      ? input.releaseDateSource
-      : 'legacy',
+    releaseDateSource,
     isEarlyAccess: Boolean(input.isEarlyAccess),
     expectedFullReleaseDate,
     expectedFullReleaseText: cleanText(input.expectedFullReleaseText, 400),
@@ -217,32 +226,34 @@ async function readBody(req, maxBytes = 1_000_000) {
 
 function rateLimited(req, windowMs = 15 * 60_000, max = 180) {
   const now = Date.now();
-  const key = `${req.socket.remoteAddress}:${Math.floor(now / windowMs)}`;
+  const bucket = Math.floor(now / windowMs);
+  const key = `${req.socket.remoteAddress}:${bucket}`;
   const count = (rateBuckets.get(key) || 0) + 1;
   rateBuckets.set(key, count);
   if (rateBuckets.size > 5000) {
-    for (const bucket of rateBuckets.keys()) if (!bucket.endsWith(String(Math.floor(now / windowMs)))) rateBuckets.delete(bucket);
+    const suffix = `:${bucket}`;
+    for (const existingKey of rateBuckets.keys()) if (!existingKey.endsWith(suffix)) rateBuckets.delete(existingKey);
   }
   return count > max;
 }
 
-function parseSteamDate(text) {
-  const value = cleanText(text, 100);
-  if (!value) return '';
-  if (/^\d{4}$/.test(value)) return value;
-  const parsed = new Date(`${value} UTC`);
-  return Number.isNaN(parsed.getTime()) ? '' : parsed.toISOString().slice(0, 10);
-}
-
-async function steamFetch(url) {
+async function fetchJson(url, options = {}, timeoutMs = 20_000) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 20_000);
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
-    const response = await fetch(url, { signal: controller.signal, headers: { 'User-Agent': 'GameLibrary/3.0' } });
-    if (!response.ok) throw new Error(`Steam API: HTTP ${response.status}`);
+    const response = await fetch(url, { ...options, signal: controller.signal });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   } finally {
     clearTimeout(timer);
+  }
+}
+
+async function steamFetch(url) {
+  try {
+    return await fetchJson(url, { headers: { 'User-Agent': 'GameLibrary/4.0' } });
+  } catch (error) {
+    throw new Error(`Steam API: ${error.message}`);
   }
 }
 
@@ -289,31 +300,30 @@ async function fetchSteamDetails(appIds) {
   return Object.fromEntries(entries);
 }
 
-async function fetchWikidataDates(appIds) {
+export async function fetchWikidataDates(appIds) {
   const result = {};
-  for (let offset = 0; offset < appIds.length; offset += 50) {
-    const batch = appIds.slice(offset, offset + 50);
+  const uniqueIds = [...new Set(appIds.map(String).filter(id => /^\d+$/.test(id)))];
+  for (let offset = 0; offset < uniqueIds.length; offset += 50) {
+    const batch = uniqueIds.slice(offset, offset + 50);
     const values = batch.map(id => `"${id}"`).join(' ');
     const query = `SELECT ?steamId (MIN(?date) AS ?releaseDate) WHERE { VALUES ?steamId { ${values} } ?item wdt:P1733 ?steamId; wdt:P577 ?date. } GROUP BY ?steamId`;
     try {
-      const response = await fetch('https://query.wikidata.org/sparql', {
+      const data = await fetchJson('https://query.wikidata.org/sparql', {
         method: 'POST',
         headers: {
           Accept: 'application/sparql-results+json',
           'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
-          'User-Agent': 'GameLibrary/3.0 (personal library synchronizer)',
+          'User-Agent': 'GameLibrary/4.0 (personal library synchronizer)',
         },
         body: new URLSearchParams({ query }),
       });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const data = await response.json();
       for (const row of data?.results?.bindings || []) {
         const id = row.steamId?.value;
         const date = row.releaseDate?.value?.slice(0, 10);
-        if (id && isPartialIsoDate(date)) result[id] = date;
+        if (id && validNonEmptyDate(date)) result[id] = date;
       }
     } catch (error) {
-      console.warn('Wikidata недоступна, даты этого пакета останутся без обновления:', error.message);
+      console.warn('Wikidata недоступна, даты этого пакета не обновлены:', error.message);
     }
   }
   return result;
@@ -332,6 +342,53 @@ function steamGenresContainEarlyAccess(details) {
   return Array.isArray(details?.genres) && details.genres.some(genre => String(genre?.description).toLowerCase() === 'early access');
 }
 
+export function applyVerifiedReleaseDates(games, wikidataDates = {}, overrides = {}) {
+  return games.map(sourceGame => {
+    const game = normalizeGame(sourceGame);
+    if (!game.steamAppId) return game;
+
+    const override = overrides[game.steamAppId] || {};
+    const manualDate = game.releaseDateSource === 'manual' && validNonEmptyDate(game.releaseDate) ? game.releaseDate : '';
+    const overrideDate = validNonEmptyDate(override.releaseDate) ? override.releaseDate : '';
+    const wikidataDate = validNonEmptyDate(wikidataDates[game.steamAppId]) ? wikidataDates[game.steamAppId] : '';
+    const previousVerifiedDate = ['override', 'wikidata'].includes(game.releaseDateSource) && validNonEmptyDate(game.releaseDate)
+      ? game.releaseDate
+      : '';
+
+    const releaseDate = manualDate || overrideDate || wikidataDate || previousVerifiedDate || '';
+    const releaseDateSource = manualDate
+      ? 'manual'
+      : overrideDate
+        ? 'override'
+        : wikidataDate
+          ? 'wikidata'
+          : previousVerifiedDate
+            ? game.releaseDateSource
+            : 'unknown';
+
+    return normalizeGame({
+      ...game,
+      releaseDate,
+      releaseDatePrecision: inferPrecision(releaseDate),
+      releaseDateSource,
+    });
+  });
+}
+
+async function repairReleaseDates(games) {
+  const appIds = [...new Set(games.map(game => game.steamAppId).filter(Boolean))];
+  const [wikidataDates, overrides] = await Promise.all([
+    fetchWikidataDates(appIds),
+    loadOverrides(),
+  ]);
+  const repaired = applyVerifiedReleaseDates(games, wikidataDates, overrides);
+  const changed = repaired.reduce((count, game, index) => {
+    const before = games[index];
+    return count + Number(before.releaseDate !== game.releaseDate || before.releaseDateSource !== game.releaseDateSource);
+  }, 0);
+  return { games: repaired, changed, wikidataDates: Object.keys(wikidataDates).length };
+}
+
 export function mergeSteamLibrary(current, owned, detailsById = {}, wikidataDates = {}, overrides = {}) {
   const existingByAppId = new Map(current.filter(game => game.steamAppId).map(game => [game.steamAppId, game]));
   const manualGames = current.filter(game => !game.steamAppId);
@@ -342,24 +399,10 @@ export function mergeSteamLibrary(current, owned, detailsById = {}, wikidataDate
     const previous = existingByAppId.get(appId) || {};
     const details = detailsById[appId] || {};
     const override = overrides[appId] || {};
-    const overrideDate = isPartialIsoDate(override.releaseDate) ? override.releaseDate : '';
-    const wikidataDate = isPartialIsoDate(wikidataDates[appId]) ? wikidataDates[appId] : '';
-    const steamDate = parseSteamDate(details?.release_date?.date);
-    const trustworthyPrevious = ['manual', 'override', 'wikidata'].includes(previous.releaseDateSource) ? previous.releaseDate : '';
-    const releaseDate = overrideDate || wikidataDate || trustworthyPrevious || steamDate || previous.releaseDate || '';
-    const releaseDateSource = overrideDate
-      ? 'override'
-      : wikidataDate
-        ? 'wikidata'
-        : trustworthyPrevious
-          ? previous.releaseDateSource
-          : steamDate
-            ? 'steam-fallback'
-            : previous.releaseDateSource || 'legacy';
     const isEarlyAccess = typeof override.isEarlyAccess === 'boolean'
       ? override.isEarlyAccess
       : steamGenresContainEarlyAccess(details) || Boolean(previous.isEarlyAccess);
-    const expectedFullReleaseDate = isPartialIsoDate(override.expectedFullReleaseDate)
+    const expectedFullReleaseDate = validNonEmptyDate(override.expectedFullReleaseDate)
       ? override.expectedFullReleaseDate
       : previous.expectedFullReleaseDate || '';
     const expectedFullReleaseText = cleanText(override.expectedFullReleaseText, 400)
@@ -372,9 +415,6 @@ export function mergeSteamLibrary(current, owned, detailsById = {}, wikidataDate
       steamAppId: appId,
       title: item.name || details?.name || previous.title,
       platform: 'Steam',
-      releaseDate,
-      releaseDatePrecision: inferPrecision(releaseDate),
-      releaseDateSource,
       isEarlyAccess,
       expectedFullReleaseDate,
       expectedFullReleaseText,
@@ -385,7 +425,8 @@ export function mergeSteamLibrary(current, owned, detailsById = {}, wikidataDate
     });
   });
 
-  return [...steamGames, ...manualGames].sort((a, b) => a.title.localeCompare(b.title, 'ru', { sensitivity: 'base' }));
+  const verifiedSteamGames = applyVerifiedReleaseDates(steamGames, wikidataDates, overrides);
+  return [...verifiedSteamGames, ...manualGames].sort((a, b) => a.title.localeCompare(b.title, 'ru', { sensitivity: 'base' }));
 }
 
 async function synchronize(games) {
@@ -397,7 +438,7 @@ async function synchronize(games) {
     loadOverrides(),
   ]);
   const merged = mergeSteamLibrary(games, owned, detailsById, wikidataDates, overrides);
-  const previousIds = new Set(games.filter(g => g.steamAppId).map(g => g.steamAppId));
+  const previousIds = new Set(games.filter(game => game.steamAppId).map(game => game.steamAppId));
   const nextIds = new Set(appIds);
   return {
     games: merged,
@@ -405,6 +446,7 @@ async function synchronize(games) {
     removed: [...previousIds].filter(id => !nextIds.has(id)).length,
     totalSteam: appIds.length,
     wikidataDates: Object.keys(wikidataDates).length,
+    unresolvedDates: merged.filter(game => game.steamAppId && !game.releaseDate).length,
   };
 }
 
@@ -452,13 +494,13 @@ async function apiHandler(req, res, url, state) {
     const body = await readBody(req);
     if (Number(body?.version || 1) > DATA_VERSION) return json(res, 400, { error: 'Файл создан более новой версией приложения' });
     const imported = normalizeLibrary(body);
-    state.games = imported;
+    state.games = (await repairReleaseDates(imported)).games;
     await state.persist();
     return json(res, 200, { ok: true, count: state.games.length });
   }
 
   if (req.method === 'POST' && url.pathname === '/api/reset') {
-    state.games = await initialLibrary();
+    state.games = (await repairReleaseDates(await initialLibrary())).games;
     await state.persist();
     return json(res, 200, { ok: true, count: state.games.length });
   }
@@ -489,8 +531,13 @@ export async function startServer() {
   if (!process.env.APP_USERNAME || !process.env.APP_PASSWORD) {
     throw new Error('Задайте APP_USERNAME и APP_PASSWORD. Сервер не запускается без авторизации.');
   }
+
+  const loadedGames = await loadLibrary();
+  const repair = await repairReleaseDates(loadedGames);
+  if (repair.changed) console.log(`Исправлено или очищено дат релиза: ${repair.changed}`);
+
   const state = {
-    games: await loadLibrary(),
+    games: repair.games,
     updatedAt: new Date().toISOString(),
     async persist() {
       await saveLibrary(this.games);
