@@ -1,1 +1,103 @@
-<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Библиотека игр</title><link rel="stylesheet" href="styles.css"></head><body><header class="hero"><div><p class="eyebrow">Локальный каталог Steam</p><h1>Библиотека игр</h1><p id="counter">Загрузка…</p></div><div class="top-actions"><button id="themeBtn">Тема</button><button id="randomBtn">Случайная игра</button><button id="missingBtn">К незаполненным датам</button></div></header><main><section id="stats" class="stats"></section><section class="panel controls"><input id="search" placeholder="Поиск по названию"><select id="decade"><option value="">Все десятилетия</option></select><select id="platformFilter"><option value="">Все платформы</option><option value="__empty__">Платформа не указана</option></select><label><input type="checkbox" id="hasEa"> Был ранний доступ</label><label><input type="checkbox" id="unknown"> Дата неизвестна</label><button id="resetFilters">Сбросить фильтры</button><button id="viewBtn">Карточки</button></section><section id="statusTabs" class="status-tabs" aria-label="Фильтр по статусу прохождения"></section><section class="panel actions"><button id="addBtn">Добавить игру</button><button id="exportJson">Экспорт JSON</button><label class="filebtn">Импорт JSON<input type="file" id="importJson" accept="application/json"></label><button id="exportCsv">Экспорт CSV</button><button id="restoreBtn">Восстановить исходный список</button></section><section id="randomBox" class="panel hidden"></section><section class="table-wrap"><table id="gamesTable"><thead><tr><th data-sort="title">Название</th><th data-sort="releaseDate">Полный релиз</th><th data-sort="earlyAccessDate">Ранний доступ</th><th data-sort="platform">Платформа</th><th data-sort="status">Статус</th><th>Действия</th></tr></thead><tbody></tbody></table></section><section id="cards" class="cards hidden"></section></main><dialog id="editor"><form method="dialog" id="gameForm"><h2 id="formTitle">Игра</h2><input type="hidden" id="editId"><label>Название<input id="titleInput" required></label><div class="grid"><label>Полный релиз<input id="releaseInput" type="date"></label><label>Статус даты<select id="releaseStatus"><option value="exact">точная</option><option value="year">только год</option><option value="unknown">неизвестна</option></select></label><label>Ранний доступ<input id="eaInput" type="date"></label><label>Статус даты<select id="eaStatus"><option value="exact">точная</option><option value="year">только год</option><option value="unknown">неизвестна</option></select></label><label>Платформа<select id="platformInput"><option value=""></option><option value="Steam">Steam</option><option value="Epic">Epic</option><option value="GOG">GOG</option><option value="PS">PS</option><option value="Пиратка">Пиратка</option><option value="Другое">Другое</option></select></label><label>Статус прохождения<select id="statusInput"><option value=""></option><option value="Прошёл">Прошёл</option><option value="Дропнул">Дропнул</option></select></label></div><label>Источник<input id="sourceInput" type="url"></label><div class="modal-actions"><button type="button" id="clearDates">Очистить даты</button><button type="button" id="cancelBtn">Отмена</button><button id="saveBtn">Сохранить</button></div></form></dialog><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Библиотека игр</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">Личная библиотека</p>
+      <h1>Библиотека игр</h1>
+      <p id="counter" aria-live="polite">Загрузка…</p>
+    </div>
+    <div class="top-actions">
+      <button id="syncBtn" class="primary">Синхронизировать Steam</button>
+      <button id="themeBtn">Светлая тема</button>
+      <button id="randomBtn">Случайная игра</button>
+    </div>
+  </header>
+
+  <main>
+    <p id="notice" class="notice hidden" role="status"></p>
+    <section id="stats" class="stats" aria-label="Статистика"></section>
+
+    <section class="panel controls" aria-label="Фильтры">
+      <input id="search" type="search" placeholder="Поиск по названию" autocomplete="off">
+      <select id="decade"><option value="">Все десятилетия</option></select>
+      <select id="platformFilter"><option value="">Все платформы</option></select>
+      <label><input type="checkbox" id="earlyAccessOnly"> Сейчас в раннем доступе</label>
+      <label><input type="checkbox" id="unknown"> Дата неизвестна</label>
+      <button id="resetFilters">Сбросить фильтры</button>
+      <button id="viewBtn">Карточки</button>
+    </section>
+
+    <section id="statusTabs" class="status-tabs" aria-label="Статус прохождения"></section>
+
+    <section class="toolbar">
+      <button id="addBtn">Добавить игру</button>
+      <details class="data-tools">
+        <summary>Управление данными</summary>
+        <div class="data-tools-menu">
+          <button id="exportJson">Экспорт JSON</button>
+          <label class="filebtn">Импорт JSON<input type="file" id="importJson" accept="application/json"></label>
+          <button id="exportCsv">Экспорт CSV</button>
+          <button id="restoreBtn" class="danger">Восстановить исходный список</button>
+        </div>
+      </details>
+    </section>
+
+    <section id="randomBox" class="panel hidden" aria-live="polite"></section>
+
+    <section class="table-wrap">
+      <table id="gamesTable">
+        <thead>
+          <tr>
+            <th><button class="sort-button" data-sort="title">Название</button></th>
+            <th><button class="sort-button" data-sort="releaseDate">Реальный выход</button></th>
+            <th><button class="sort-button" data-sort="platform">Платформа</button></th>
+            <th><button class="sort-button" data-sort="status">Статус</button></th>
+            <th>Действия</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+    <section id="cards" class="cards hidden"></section>
+  </main>
+
+  <dialog id="editor">
+    <form id="gameForm">
+      <h2 id="formTitle">Игра</h2>
+      <input type="hidden" id="editId">
+      <label>Название<input id="titleInput" required maxlength="240"></label>
+      <div class="grid">
+        <label>Дата реального выхода<input id="releaseInput" type="date"></label>
+        <label>Источник даты
+          <select id="releaseSource">
+            <option value="manual">вручную</option>
+            <option value="wikidata">Wikidata</option>
+            <option value="steam-fallback">Steam, запасной вариант</option>
+            <option value="legacy">старые данные</option>
+          </select>
+        </label>
+        <label class="checkbox-label"><input id="earlyAccessInput" type="checkbox"> Сейчас в раннем доступе</label>
+        <label>Ожидаемый полный релиз<input id="expectedReleaseInput" type="date"></label>
+        <label>Платформа<input id="platformInput" maxlength="50" list="platforms"></label>
+        <label>Статус<input id="statusInput" maxlength="50" list="statuses"></label>
+      </div>
+      <datalist id="platforms"><option value="Steam"><option value="Epic"><option value="GOG"><option value="PS"><option value="Пиратка"><option value="Другое"></datalist>
+      <datalist id="statuses"><option value="Прошёл"><option value="Дропнул"></datalist>
+      <label>Источник<input id="sourceInput" type="url" placeholder="https://…"></label>
+      <div class="modal-actions">
+        <button type="button" id="cancelBtn">Отмена</button>
+        <button class="primary" type="submit">Сохранить</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
