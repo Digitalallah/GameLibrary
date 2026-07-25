@@ -65,7 +65,7 @@ node server.js
 ```bash
 node --version  # должно быть v20 или новее
 sudo apt install rsync caddy
-sudo ./deploy/install.sh
+sudo bash deploy/install.sh
 sudo nano /etc/gamelibrary.env
 sudo systemctl start gamelibrary
 sudo systemctl status gamelibrary
