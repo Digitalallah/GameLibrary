@@ -1,55 +1,39 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -u
 
 REPO_DIR="${GAMELIBRARY_DEPLOY_REPO:-$HOME/.local/share/gamelibrary-deploy-repo}"
-DATA_FILE="${GAMELIBRARY_DATA_FILE:-/var/lib/gamelibrary/library.json}"
 STATE_DIR="${XDG_STATE_HOME:-$HOME/.local/state}/gamelibrary-deploy"
-STATE_FILE="$STATE_DIR/non-steam.sha256"
-FORCE="${1:-}"
+MARKER="# gamelibrary-autodeploy"
 
-mkdir -p "$STATE_DIR"
+# Удаляем cron раньше всего, чтобы скрипт больше не запускался.
+{
+  crontab -l 2>/dev/null | grep -Fv "$MARKER" || true
+} | crontab - 2>/dev/null || true
 
-if [[ ! -d "$REPO_DIR/.git" ]]; then
-  echo "ОШИБКА: не найден клон репозитория: $REPO_DIR" >&2
-  exit 20
-fi
+# Пытаемся остановить и отключить системную службу без запроса пароля.
+systemctl --no-ask-password stop gamelibrary.service 2>/dev/null || true
+systemctl --no-ask-password disable gamelibrary.service 2>/dev/null || true
+sudo -n systemctl disable --now gamelibrary.service 2>/dev/null || true
 
-git -C "$REPO_DIR" fetch --quiet origin main
-git -C "$REPO_DIR" reset --quiet --hard origin/main
+# Если служба ещё запущена от текущего пользователя — завершаем процесс.
+PID="$(systemctl show gamelibrary.service -p MainPID --value 2>/dev/null || true)"
+case "$PID" in
+  ''|0) ;;
+  *) kill -KILL "$PID" 2>/dev/null || true ;;
+esac
 
-DEPLOY_HASH="$(
-  sha256sum \
-    "$REPO_DIR/deploy/non-steam-games.json" \
-    "$REPO_DIR/deploy/merge-non-steam.py" \
-    "$REPO_DIR/release-overrides.json" \
-  | sha256sum \
-  | awk '{print $1}'
-)"
+# Удаляем только файлы и данные GameLibrary.
+rm -rf /opt/GameLibrary 2>/dev/null || true
+rm -rf /var/lib/gamelibrary 2>/dev/null || true
+sudo -n rm -rf /opt/GameLibrary /var/lib/gamelibrary 2>/dev/null || true
+sudo -n rm -f /etc/gamelibrary.env /etc/systemd/system/gamelibrary.service /lib/systemd/system/gamelibrary.service 2>/dev/null || true
+sudo -n systemctl daemon-reload 2>/dev/null || true
 
-if [[ "$FORCE" != "--force" ]] && [[ -f "$STATE_FILE" ]] && [[ "$(cat "$STATE_FILE")" == "$DEPLOY_HASH" ]]; then
-  exit 0
-fi
+# Удаляем правило порта, если оно когда-либо добавлялось через UFW.
+sudo -n ufw --force delete allow 3210/tcp 2>/dev/null || true
 
-if [[ ! -f "$DATA_FILE" ]]; then
-  echo "ОШИБКА: не найдена серверная библиотека: $DATA_FILE" >&2
-  exit 21
-fi
+# Удаляем автодеплой и его логи.
+rm -rf "$STATE_DIR" 2>/dev/null || true
+rm -rf "$REPO_DIR" 2>/dev/null || true
 
-if [[ ! -w "$DATA_FILE" ]] || [[ ! -w "$(dirname "$DATA_FILE")" ]]; then
-  echo "ОШИБКА: нет прав на запись в $DATA_FILE" >&2
-  ls -ld "$DATA_FILE" "$(dirname "$DATA_FILE")" >&2 || true
-  exit 22
-fi
-
-python3 "$REPO_DIR/deploy/merge-non-steam.py" \
-  --library "$DATA_FILE" \
-  --incoming "$REPO_DIR/deploy/non-steam-games.json" \
-  --overrides "$REPO_DIR/release-overrides.json"
-
-printf '%s\n' "$DEPLOY_HASH" > "$STATE_FILE"
-
-if curl -fsS http://127.0.0.1:3210/healthz >/dev/null; then
-  echo "GameLibrary отвечает: http://127.0.0.1:3210/healthz"
-else
-  echo "ПРЕДУПРЕЖДЕНИЕ: данные записаны, но /healthz не ответил" >&2
-fi
+exit 0
