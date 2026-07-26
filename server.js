@@ -6,7 +6,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
-const DATA_VERSION = 4;
+const DATA_VERSION = 5;
 const PORT = Number(process.env.PORT || 3210);
 const HOST = process.env.HOST || '127.0.0.1';
 const DATA_DIR = path.resolve(process.env.DATA_DIR || path.join(ROOT, 'data'));
@@ -110,6 +110,19 @@ function normalizeLibrary(raw) {
   return list.map(normalizeGame);
 }
 
+export function normalizeIgnoredSteamAppIds(raw) {
+  const list = Array.isArray(raw) ? raw : raw?.ignoredSteamAppIds;
+  if (!Array.isArray(list)) return [];
+  return [...new Set(list.map(String).filter(id => /^\d+$/.test(id)))].slice(0, 10000);
+}
+
+function normalizeLibraryData(raw) {
+  return {
+    games: normalizeLibrary(raw),
+    ignoredSteamAppIds: normalizeIgnoredSteamAppIds(raw),
+  };
+}
+
 async function readJson(file) {
   return JSON.parse(await readFile(file, 'utf8'));
 }
@@ -119,7 +132,7 @@ async function latestValidBackup() {
     const names = (await readdir(BACKUP_DIR)).filter(name => name.endsWith('.json')).sort().reverse();
     for (const name of names) {
       try {
-        return normalizeLibrary(await readJson(path.join(BACKUP_DIR, name)));
+        return normalizeLibraryData(await readJson(path.join(BACKUP_DIR, name)));
       } catch {
         // Пробуем следующую резервную копию.
       }
@@ -130,18 +143,21 @@ async function latestValidBackup() {
   return null;
 }
 
-async function initialLibrary() {
-  return normalizeLibrary(await readJson(INITIAL_FILE));
+async function initialLibraryData() {
+  return {
+    games: normalizeLibrary(await readJson(INITIAL_FILE)),
+    ignoredSteamAppIds: [],
+  };
 }
 
-async function loadLibrary() {
+async function loadLibraryData() {
   await mkdir(BACKUP_DIR, { recursive: true });
   try {
-    return normalizeLibrary(await readJson(LIBRARY_FILE));
+    return normalizeLibraryData(await readJson(LIBRARY_FILE));
   } catch (error) {
     const backup = await latestValidBackup();
     if (backup) return backup;
-    const initial = await initialLibrary();
+    const initial = await initialLibraryData();
     if (error?.code !== 'ENOENT') console.error('Повреждено основное хранилище, загружен исходный список:', error.message);
     return initial;
   }
@@ -152,7 +168,7 @@ async function pruneBackups(limit = 10) {
   await Promise.all(names.slice(limit).map(name => unlink(path.join(BACKUP_DIR, name)).catch(() => {})));
 }
 
-async function saveLibrary(games, { backup = true } = {}) {
+async function saveLibraryData(games, ignoredSteamAppIds, { backup = true } = {}) {
   await mkdir(BACKUP_DIR, { recursive: true });
   if (backup) {
     try {
@@ -163,7 +179,12 @@ async function saveLibrary(games, { backup = true } = {}) {
       // Первый запуск: резервировать пока нечего.
     }
   }
-  const payload = JSON.stringify({ version: DATA_VERSION, updatedAt: new Date().toISOString(), games }, null, 2);
+  const payload = JSON.stringify({
+    version: DATA_VERSION,
+    updatedAt: new Date().toISOString(),
+    ignoredSteamAppIds: normalizeIgnoredSteamAppIds(ignoredSteamAppIds),
+    games,
+  }, null, 2);
   const temp = `${LIBRARY_FILE}.${process.pid}.tmp`;
   await writeFile(temp, payload, 'utf8');
   await rename(temp, LIBRARY_FILE);
@@ -251,7 +272,7 @@ async function fetchJson(url, options = {}, timeoutMs = 20_000) {
 
 async function steamFetch(url) {
   try {
-    return await fetchJson(url, { headers: { 'User-Agent': 'GameLibrary/4.0' } });
+    return await fetchJson(url, { headers: { 'User-Agent': 'GameLibrary/5.0' } });
   } catch (error) {
     throw new Error(`Steam API: ${error.message}`);
   }
@@ -313,7 +334,7 @@ export async function fetchWikidataDates(appIds) {
         headers: {
           Accept: 'application/sparql-results+json',
           'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
-          'User-Agent': 'GameLibrary/4.0 (personal library synchronizer)',
+          'User-Agent': 'GameLibrary/5.0 (personal library synchronizer)',
         },
         body: new URLSearchParams({ query }),
       });
@@ -389,12 +410,14 @@ async function repairReleaseDates(games) {
   return { games: repaired, changed, wikidataDates: Object.keys(wikidataDates).length };
 }
 
-export function mergeSteamLibrary(current, owned, detailsById = {}, wikidataDates = {}, overrides = {}) {
+export function mergeSteamLibrary(current, owned, detailsById = {}, wikidataDates = {}, overrides = {}, ignoredSteamAppIds = []) {
+  const ignored = new Set(normalizeIgnoredSteamAppIds(ignoredSteamAppIds));
+  const allowedOwned = owned.filter(item => !ignored.has(String(item.appid)));
   const existingByAppId = new Map(current.filter(game => game.steamAppId).map(game => [game.steamAppId, game]));
   const manualGames = current.filter(game => !game.steamAppId);
   const now = new Date().toISOString();
 
-  const steamGames = owned.map(item => {
+  const steamGames = allowedOwned.map(item => {
     const appId = String(item.appid);
     const previous = existingByAppId.get(appId) || {};
     const details = detailsById[appId] || {};
@@ -429,15 +452,17 @@ export function mergeSteamLibrary(current, owned, detailsById = {}, wikidataDate
   return [...verifiedSteamGames, ...manualGames].sort((a, b) => a.title.localeCompare(b.title, 'ru', { sensitivity: 'base' }));
 }
 
-async function synchronize(games) {
-  const owned = await fetchOwnedGames();
+async function synchronize(games, ignoredSteamAppIds) {
+  const allOwned = await fetchOwnedGames();
+  const ignored = new Set(normalizeIgnoredSteamAppIds(ignoredSteamAppIds));
+  const owned = allOwned.filter(game => !ignored.has(String(game.appid)));
   const appIds = owned.map(game => String(game.appid));
   const [detailsById, wikidataDates, overrides] = await Promise.all([
     fetchSteamDetails(appIds),
     fetchWikidataDates(appIds),
     loadOverrides(),
   ]);
-  const merged = mergeSteamLibrary(games, owned, detailsById, wikidataDates, overrides);
+  const merged = mergeSteamLibrary(games, owned, detailsById, wikidataDates, overrides, ignoredSteamAppIds);
   const previousIds = new Set(games.filter(game => game.steamAppId).map(game => game.steamAppId));
   const nextIds = new Set(appIds);
   return {
@@ -445,6 +470,7 @@ async function synchronize(games) {
     added: appIds.filter(id => !previousIds.has(id)).length,
     removed: [...previousIds].filter(id => !nextIds.has(id)).length,
     totalSteam: appIds.length,
+    ignoredSteam: allOwned.length - owned.length,
     wikidataDates: Object.keys(wikidataDates).length,
     unresolvedDates: merged.filter(game => game.steamAppId && !game.releaseDate).length,
   };
@@ -456,7 +482,12 @@ function findGameIndex(games, id) {
 
 async function apiHandler(req, res, url, state) {
   if (req.method === 'GET' && url.pathname === '/api/state') {
-    return json(res, 200, { version: DATA_VERSION, updatedAt: state.updatedAt, games: state.games });
+    return json(res, 200, {
+      version: DATA_VERSION,
+      updatedAt: state.updatedAt,
+      ignoredSteamAppIds: [...state.ignoredSteamAppIds],
+      games: state.games,
+    });
   }
 
   if (MUTATING_METHODS.has(req.method) && req.headers['x-game-library'] !== '1') {
@@ -466,6 +497,7 @@ async function apiHandler(req, res, url, state) {
   if (req.method === 'POST' && url.pathname === '/api/games') {
     const game = normalizeGame(await readBody(req));
     if (state.games.some(item => item.id === game.id)) game.id = randomUUID();
+    if (game.steamAppId) state.ignoredSteamAppIds.delete(game.steamAppId);
     state.games.unshift(game);
     await state.persist();
     return json(res, 201, game);
@@ -478,16 +510,19 @@ async function apiHandler(req, res, url, state) {
     if (index < 0) return json(res, 404, { error: 'Игра не найдена' });
     const body = await readBody(req);
     state.games[index] = normalizeGame({ ...state.games[index], ...body, id });
+    if (state.games[index].steamAppId) state.ignoredSteamAppIds.delete(state.games[index].steamAppId);
     await state.persist();
     return json(res, 200, state.games[index]);
   }
+
   if (gameMatch && req.method === 'DELETE') {
     const id = decodeURIComponent(gameMatch[1]);
     const index = findGameIndex(state.games, id);
     if (index < 0) return json(res, 404, { error: 'Игра не найдена' });
-    state.games.splice(index, 1);
+    const [removed] = state.games.splice(index, 1);
+    if (removed.steamAppId) state.ignoredSteamAppIds.add(removed.steamAppId);
     await state.persist();
-    return json(res, 200, { ok: true });
+    return json(res, 200, { ok: true, ignoredSteam: Boolean(removed.steamAppId) });
   }
 
   if (req.method === 'POST' && url.pathname === '/api/import') {
@@ -495,19 +530,24 @@ async function apiHandler(req, res, url, state) {
     if (Number(body?.version || 1) > DATA_VERSION) return json(res, 400, { error: 'Файл создан более новой версией приложения' });
     const imported = normalizeLibrary(body);
     state.games = (await repairReleaseDates(imported)).games;
+    if (Array.isArray(body?.ignoredSteamAppIds)) {
+      state.ignoredSteamAppIds = new Set(normalizeIgnoredSteamAppIds(body));
+    }
     await state.persist();
     return json(res, 200, { ok: true, count: state.games.length });
   }
 
   if (req.method === 'POST' && url.pathname === '/api/reset') {
-    state.games = (await repairReleaseDates(await initialLibrary())).games;
+    const initial = await initialLibraryData();
+    state.games = (await repairReleaseDates(initial.games)).games;
+    state.ignoredSteamAppIds = new Set();
     await state.persist();
     return json(res, 200, { ok: true, count: state.games.length });
   }
 
   if (req.method === 'POST' && url.pathname === '/api/sync') {
     if (rateLimited(req, 60 * 60_000, 5)) return json(res, 429, { error: 'Синхронизацию можно запускать не чаще пяти раз в час' });
-    const result = await synchronize(state.games);
+    const result = await synchronize(state.games, [...state.ignoredSteamAppIds]);
     state.games = result.games;
     await state.persist();
     return json(res, 200, result);
@@ -532,19 +572,20 @@ export async function startServer() {
     throw new Error('Задайте APP_USERNAME и APP_PASSWORD. Сервер не запускается без авторизации.');
   }
 
-  const loadedGames = await loadLibrary();
-  const repair = await repairReleaseDates(loadedGames);
+  const loaded = await loadLibraryData();
+  const repair = await repairReleaseDates(loaded.games);
   if (repair.changed) console.log(`Исправлено или очищено дат релиза: ${repair.changed}`);
 
   const state = {
     games: repair.games,
+    ignoredSteamAppIds: new Set(loaded.ignoredSteamAppIds),
     updatedAt: new Date().toISOString(),
     async persist() {
-      await saveLibrary(this.games);
+      await saveLibraryData(this.games, [...this.ignoredSteamAppIds]);
       this.updatedAt = new Date().toISOString();
     },
   };
-  await saveLibrary(state.games, { backup: false });
+  await saveLibraryData(state.games, [...state.ignoredSteamAppIds], { backup: false });
 
   const server = createServer(async (req, res) => {
     setSecurityHeaders(res);
