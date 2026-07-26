@@ -5,6 +5,7 @@ import {
   normalizeGame,
   applyVerifiedReleaseDates,
   mergeSteamLibrary,
+  normalizeIgnoredSteamAppIds,
 } from '../server.js';
 
 test('invalid dates are rejected without crashing', () => {
@@ -79,4 +80,21 @@ test('manual games remain after Steam synchronization', () => {
     {}, {}, {},
   );
   assert.deepEqual(merged.map(game => game.title).sort(), ['Manual', 'Steam game']);
+});
+
+test('deleted Steam games stay excluded from later synchronization', () => {
+  const merged = mergeSteamLibrary(
+    [normalizeGame({ id: 'manual', title: 'Manual', platform: 'GOG' })],
+    [
+      { appid: 1, name: 'Deleted Steam game' },
+      { appid: 2, name: 'Kept Steam game' },
+    ],
+    {}, {}, {}, ['1'],
+  );
+
+  assert.deepEqual(merged.map(game => game.title).sort(), ['Kept Steam game', 'Manual']);
+});
+
+test('ignored Steam ids are normalized and deduplicated', () => {
+  assert.deepEqual(normalizeIgnoredSteamAppIds(['1', 1, 'bad', '2']), ['1', '2']);
 });
